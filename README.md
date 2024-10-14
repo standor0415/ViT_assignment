@@ -18,6 +18,8 @@ pip install -r requirement.txt
 ![alt text](README_image/vit_model.png)
 Vision Transformer에서 image embedding 과정, forward에서 만들어 놓은 레이어를 어떻게 사용하는지를 확인할 수 있도록 만들었다.
 
+Dataset은 CIFAR-10을 활용
+
 TODO 밑에서부터 작성
 
 ```bash
@@ -41,6 +43,8 @@ unzip tiny-imagenet-200.zip
 ```
 ![alt text](README_image/mae_model.png)
 Masked Autoencoders에서 이전 ViT에서 없었던 Decoder와 Masking 부분을 구현해보면 된다.
+
+Dataset은 Tiny-Imagenet을 활용
 
 TODO 밑에서부터 작성
 
