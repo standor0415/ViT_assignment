@@ -87,13 +87,7 @@ pip install -r requirements.txt
 
 이번 과제는 Criterion 수식을 코드에서 어떻게 구현하는지 알아보는 것이다.
 
-$$
-\mathcal{L}_{\text{Hungarian}}(y, \hat{y}) = \sum_{i=1}^{N} \left[ -\log \hat{p}_{\hat{\sigma}(i)}(c_i) + \mathbb{1}_{\{c_i \neq \varnothing\}} \mathcal{L}_{\text{box}}(b_i, \hat{b}_{\hat{\sigma}(i)}) \right]
-$$
-
-$$
-\mathcal{L}_{\text{box}}(b_i, \hat{b}_{\sigma(i)}) = \lambda_{\text{iou}} \mathcal{L}_{\text{iou}}(b_i, \hat{b}_{\sigma(i)}) + \lambda_{\text{L1}} \| b_i - \hat{b}_{\sigma(i)} \|_1
-$$
+![alt text](README_image/equation.png)
 
 TODO를 채워주시고 해당 함수를 다른 사람에게 설명한다는 생각으로 주석을 단다.(TODO 코드가 매우 간단)
 
