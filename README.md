@@ -110,3 +110,5 @@ Epoch: [0]  [10490/59143]  eta: 1:58:49  lr: 0.000100  class_error: 100.00  loss
 ## 제출파일
 
 Week04 폴더에 ViT_acc.png, ViT_loss.png, result.png, training.png, `detr.py`
+
+제출기한: ~10/28 23:59
