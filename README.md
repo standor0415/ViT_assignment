@@ -75,7 +75,7 @@ unzip val2017.zip
 unzip anannotations_trainval2017.zip
 ```
 
-### environment setting
+### Environment setting
 
 ```bash
 cd ~/ViT_assignment/Detr
