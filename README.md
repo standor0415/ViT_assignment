@@ -37,7 +37,7 @@ python train.py
 
 ```bash
 cd ../Mae
-pip install -r requirement.txt
+pip install -r requirements.txt
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
 apt-get update
 apt-get install zip
