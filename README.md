@@ -1,6 +1,10 @@
 # Week 04 DS assignment(논문 구현)
 ## 수정 
+각 논문마다 새로운 conda environment 만들어야됨
+
 10/21: Vit 파일명 제대로 바꿈, Vit/requirement.txt-> Vit/requirements.txt 파일명 바꿈
+
+10/22: Mae requirements.txt에 timm 추가
 ##
 논문리딩 스터디를 진행하면서 실제 코드로 구현하는 방식이 궁금했었다.
 
