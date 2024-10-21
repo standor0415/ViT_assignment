@@ -1,5 +1,7 @@
 # Week 04 DS assignment(논문 구현)
-
+## 수정 
+10/21: Vit 파일명 제대로 바꿈, Vit/requirement.txt-> Vit/requirements.txt 파일명 바꿈
+##
 논문리딩 스터디를 진행하면서 실제 코드로 구현하는 방식이 궁금했었다.
 
 다만, 다음 과제에 치이며 코드를 직접 보는 일은 없었다.
@@ -13,7 +15,7 @@
 ```bash
 git clone https://github.com/standor0415/ViT_assignment.git
 cd ./ViT_assignment/Vit
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 ![alt text](README_image/vit_model.png)
 Vision Transformer에서 image embedding 과정, forward에서 만들어 놓은 레이어를 어떻게 사용하는지를 확인할 수 있도록 만들었다.
